@@ -1,0 +1,13 @@
+{
+    "args" : [
+        "-IC:/Program Files/RStudio/resources/libclang/builtin-headers/3.4",
+        "-IC:/Users/mlaib/Documents/R/win-library/3.4/BH/include",
+        "-IC:/Users/mlaib/Documents/R/win-library/3.4/Rcpp/include",
+        "-IC:/Users/mlaib/Documents/R/win-library/3.4/bigmemory/include",
+        "-IC:/PROGRA~1/R/R-34~1.3/include",
+        "-DNDEBUG"
+    ],
+    "hash" : "1515147849",
+    "is_cpp" : true,
+    "pch" : "Rcpp"
+}

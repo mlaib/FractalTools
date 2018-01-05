@@ -1,0 +1,53 @@
+[
+    {
+        "definitions" : [
+            {
+                "column" : 15,
+                "file" : "C:/Users/mlaib/Desktop/Functions/GitHub/FractalTools/src/euc_dist.cpp",
+                "kind" : 6,
+                "line" : 20,
+                "name" : "sortIt(NumericVector)",
+                "parent_name" : "",
+                "usr" : "c:@F@sortIt#$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Users/mlaib/Desktop/Functions/GitHub/FractalTools/src/euc_dist.cpp",
+                "kind" : 6,
+                "line" : 27,
+                "name" : "BigArmaEuclidean(const int)",
+                "parent_name" : "",
+                "usr" : "c:@FT@>1#TBigArmaEuclidean#1I#"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Users/mlaib/Desktop/Functions/GitHub/FractalTools/src/euc_dist.cpp",
+                "kind" : 6,
+                "line" : 46,
+                "name" : "BigArmaEuc(SEXP, SEXP)",
+                "parent_name" : "",
+                "usr" : "c:@F@BigArmaEuc#*$@S@SEXPREC#S0_#"
+            },
+            {
+                "column" : 11,
+                "file" : "C:/Users/mlaib/Desktop/Functions/GitHub/FractalTools/src/euc_dist.cpp",
+                "kind" : 6,
+                "line" : 72,
+                "name" : "CPP_get_openmp_threads",
+                "parent_name" : "",
+                "usr" : "c:@F@CPP_get_openmp_threads#"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Users/mlaib/Desktop/Functions/GitHub/FractalTools/src/euc_dist.cpp",
+                "kind" : 6,
+                "line" : 88,
+                "name" : "CPP_set_openmp_threads(int)",
+                "parent_name" : "",
+                "usr" : "c:@F@CPP_set_openmp_threads#I#"
+            }
+        ],
+        "file" : "C:/Users/mlaib/Desktop/Functions/GitHub/FractalTools/src/euc_dist.cpp",
+        "file_last_write" : 1515147880
+    }
+]
