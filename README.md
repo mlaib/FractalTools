@@ -1,10 +1,9 @@
 # FractalTools
 Fractality-based tools: Contains some tools based on the fractality concept
 
-Package: FractalTools
-Type: Package
-Title: Fractality-based tools
-Version: 1.0
+
+# Version: 
+1.0
 # Date: 
 05-01-2018
 # Authors: 
