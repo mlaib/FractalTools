@@ -37,15 +37,3 @@ BEGIN_RCPP
     return R_NilValue;
 END_RCPP
 }
-
-static const R_CallMethodDef CallEntries[] = {
-    {"_FractalTools_BigArmaEuc", (DL_FUNC) &_FractalTools_BigArmaEuc, 2},
-    {"_FractalTools_CPP_get_openmp_threads", (DL_FUNC) &_FractalTools_CPP_get_openmp_threads, 0},
-    {"_FractalTools_CPP_set_openmp_threads", (DL_FUNC) &_FractalTools_CPP_set_openmp_threads, 1},
-    {NULL, NULL, 0}
-};
-
-RcppExport void R_init_FractalTools(DllInfo *dll) {
-    R_registerRoutines(dll, NULL, CallEntries, NULL, NULL);
-    R_useDynamicSymbols(dll, FALSE);
-}

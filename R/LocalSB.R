@@ -76,3 +76,4 @@ LocalSB <- function (data, Rad){
   
   return(result)
 }
+

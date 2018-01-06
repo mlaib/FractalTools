@@ -49,5 +49,20 @@
         ],
         "file" : "C:/Users/mlaib/Desktop/Functions/GitHub/FractalTools/src/FractalTools.cpp",
         "file_last_write" : 1515246594
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Users/mlaib/Desktop/Functions/GitHub/FractalTools/src/init.c",
+                "kind" : 6,
+                "line" : 22,
+                "name" : "R_init_FractalTools(DllInfo *)",
+                "parent_name" : "",
+                "usr" : "c:@F@R_init_FractalTools"
+            }
+        ],
+        "file" : "C:/Users/mlaib/Desktop/Functions/GitHub/FractalTools/src/init.c",
+        "file_last_write" : 1515253752
     }
 ]
