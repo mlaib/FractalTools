@@ -17,7 +17,7 @@
 #' @examples
 #'
 #' \dontrun{
-#'
+#' # OK :: put it here
 #' }
 #'
 #' @import Rcpp RcppArmadillo

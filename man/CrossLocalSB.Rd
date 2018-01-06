@@ -13,7 +13,7 @@ CrossLocalSB(data1, data2, rad)
 \item{data2}{Second dataset. Data of class: \code{matrix} or 
 \code{data.frame}.}
 
-\item{Rad}{Vector containning values of the radial.}
+\item{rad}{Vector containning values of the radial.}
 }
 \value{
 A data.frame contains: data, columns at each radials. The last
@@ -26,7 +26,7 @@ Calculate the cross local fractal dimension between two
 \examples{
 
 \dontrun{
-
+# OK :: put it here
 }
 
 }

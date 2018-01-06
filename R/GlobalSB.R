@@ -1,9 +1,9 @@
 #' Global fractality by fixing a radial (Sand-Box method)
 #'
 #' Calculate the fractal dimension of a dataset by using the Sand-Box method
-#' @usage GlobalSB(data, Rad)
+#' @usage GlobalSB(data, rad)
 #' @param data Data of class: \code{matrix} or \code{data.frame}.
-#' @param Rad Vector containning values of the radial.
+#' @param rad Vector containning values of the radial.
 #'
 #' @return A list containing
 #'  \itemize{
@@ -68,7 +68,7 @@
 #'
 #' }
 #'
-#' @import Rcpp RcppArmadillo
+#' @import Rcpp RcppArmadillo bigmemory biganalytics 
 #' @importFrom stats dist lm quantile
 #' @useDynLib FractalTools
 #' @importFrom Rcpp sourceCpp
@@ -76,7 +76,7 @@
 #' @export
 #'
 #'
-GlobalSB<-function (data, Rad){
+GlobalSB<-function (data, rad){
   n<-nrow(data)
   data <- as.big.matrix(data)
   bm_out <- bigDist(data, n)
@@ -108,10 +108,7 @@ GlobalSB<-function (data, Rad){
 ## Contact: mohamed.laib@unil.ch
 ## ------------------------------------------------------------------------
 
-library(bigmemory)
-library(Rcpp)
-library(biganalytics)
-sourceCpp("src/euc_dist.cpp")
+#sourceCpp("src/euc_dist.cpp")
 bigDist <- function(bigMat, n){
   zeros <- big.matrix(nrow = n,
                       ncol = n,

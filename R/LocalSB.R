@@ -44,9 +44,8 @@
 #'
 #' @import Rcpp RcppArmadillo
 #' @importFrom stats dist lm quantile var
+#' @importFrom bigmemory as.big.matrix
 #' @useDynLib FractalTools
-#' @importFrom Rcpp sourceCpp
-#' @importFrom Rcpp evalCpp
 #' @export
 #'
 LocalSB <- function (data, Rad){

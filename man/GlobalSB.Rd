@@ -4,12 +4,12 @@
 \alias{GlobalSB}
 \title{Global fractality by fixing a radial (Sand-Box method)}
 \usage{
-GlobalSB(data, Rad)
+GlobalSB(data, rad)
 }
 \arguments{
 \item{data}{Data of class: \code{matrix} or \code{data.frame}.}
 
-\item{Rad}{Vector containning values of the radial.}
+\item{rad}{Vector containning values of the radial.}
 }
 \value{
 A list containing

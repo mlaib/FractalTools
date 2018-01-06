@@ -1,4 +1,3 @@
-#define ARMA_NO_DEBUG
 
 #include <Rcpp.h>
 #include <armadillo>
@@ -15,6 +14,7 @@ extern int openmp_threads;
 
 // C++11 plugin
 // [[Rcpp::plugins(cpp11)]]
+
 
 
 NumericVector sortIt(NumericVector v){
