@@ -42,12 +42,12 @@
 #'
 #' }
 #'
-#' @import Rcpp RcppArmadillo
+#' @import Rcpp RcppArmadillo bigmemory biganalytics 
 #' @importFrom stats dist lm quantile var
-#' @importFrom bigmemory as.big.matrix
-#' @useDynLib FractalTools
+#' @useDynLib FractalTools, .registration = TRUE
 #' @export
 #'
+
 LocalSB <- function (data, Rad){
   
   n<-nrow(data)

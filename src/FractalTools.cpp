@@ -58,8 +58,6 @@ void BigArmaEuc(SEXP pInBigMat, SEXP pOutBigMat) {
 }
 
 
-
-
 // If _OPENMP is included:
 
 #ifdef _OPENMP

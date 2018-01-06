@@ -70,7 +70,7 @@
 #'
 #' @import Rcpp RcppArmadillo bigmemory biganalytics 
 #' @importFrom stats dist lm quantile
-#' @useDynLib FractalTools
+#' @useDynLib FractalTools, .registration = TRUE
 #' @importFrom Rcpp sourceCpp
 #' @importFrom Rcpp evalCpp
 #' @export
@@ -94,21 +94,7 @@ GlobalSB<-function (data, rad){
   return(list("Fdim" = Slope, "SB"= Sbox))
 }
 
-## ------------------------------------------------------------------------
-##
-## Intern function based on "bigmemory" and "Rcpp" libraries.               
-## It contains: "euc_dist.cpp" >>> C++ file
-##              "bigDist"      >>> R function to save the adress (pointer)
-##              "Example"      >>> R file, example.
-##              "SBl1"         >>> R file of sand-box (Min/Max)
-##              "SBl2"         >>> R file of sand-box (Radial)
-##
-##
-## Authors: Mohamed Laib, Mikhail Kanevski
-## Contact: mohamed.laib@unil.ch
-## ------------------------------------------------------------------------
-
-#sourceCpp("src/euc_dist.cpp")
+#sourceCpp("src/FractalTools.cpp")
 bigDist <- function(bigMat, n){
   zeros <- big.matrix(nrow = n,
                       ncol = n,

@@ -22,7 +22,7 @@
 #'
 #' @import Rcpp RcppArmadillo
 #' @importFrom stats dist lm quantile var
-#' @useDynLib FractalTools
+#' @useDynLib FractalTools, .registration = TRUE
 #' @importFrom Rcpp sourceCpp
 #' @importFrom Rcpp evalCpp
 #' @export
