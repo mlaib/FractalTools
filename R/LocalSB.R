@@ -64,15 +64,19 @@ LocalSB <- function (data, Rad){
   SlopeL <- c()
   Nbpts[which(Nbpts==0)]<-1
   vrc <- c()
+  Err <- c()
   for (i in 1:n){
     SboxL[[i]] <- data.frame(logR=log(Rad),logN=log(Nbpts[i,]))
-    SlopeL[i] <- as.numeric(lm(SboxL[[i]][,2]~SboxL[[i]][,1])$coefficients[2])
+    A <- summary(lm(SboxL[[i]][,2]~SboxL[[i]][,1]))
+    SlopeL[i] <- as.numeric(A$coefficients[2,1])
     vrc[i] <- var(Nbpts[i,])
+    Err[i] <- as.numeric(A$coefficients[2,2])
   }
   
   Nbpts<-as.data.frame(Nbpts)
   colnames(Nbpts)<-paste('R',round(Rad,2) , sep='_' )
-  result <- data.frame(data[], Nbpts, Fdim=SlopeL, variance=vrc)
+  result <- data.frame(data[], Nbpts, Fdim=SlopeL, variance=vrc, 
+                       lmError=Err)
   
   return(result)
 }

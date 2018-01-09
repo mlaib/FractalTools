@@ -26,7 +26,15 @@ Calculate the cross local fractal dimension between two
 \examples{
 
 \dontrun{
-# OK :: put it here
+D1<-matrix(runif(10*2), ncol=2)
+D2<-matrix(runif(100*2), ncol=2)
+
+D1<-as.data.frame(D1)
+D2<-as.data.frame(D2)
+rad<-seq(0.1,0.9,0.01)
+tst<-CrossLocalSB(D1,D2, rad = rad)
+tst
+
 }
 
 }
