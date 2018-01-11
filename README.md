@@ -12,9 +12,7 @@ URL: https://sites.google.com/site/mohamedlaibwebpage/
 # Authors: 
 Mohamed Laib and Mikhail Kanevski
 
-Maintainer: 
-
-Mohamed Laib <mohamed.laib@unil.ch>
+Maintainer: Mohamed Laib <mohamed.laib@unil.ch>
 
 License: GPL-3
 
