@@ -2,11 +2,12 @@
 Fractality-based tools: Contains some tools based on the fractality concept
 
 
-# Version: 
-1.0
+# Description
+Version: 1.0
 
-# Date: 
-05-01-2018
+Date: 05-01-2018
+
+URL: https://sites.google.com/site/mohamedlaibwebpage/
 
 # Authors: 
 Mohamed Laib and Mikhail Kanevski
