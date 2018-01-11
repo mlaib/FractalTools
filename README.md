@@ -24,4 +24,5 @@ Please download: FractalTools.tar.gz >> https://drive.google.com/open?id=1QuQ-TU
 
 The package depends on the following R libraries:
 Rcpp, bigmemory, biganalytics, RcppArmadillo, BH
+
 Further improvements are needed, and will be added soon.
