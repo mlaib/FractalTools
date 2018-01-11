@@ -15,7 +15,13 @@ Maintainer:
 
 Mohamed Laib <mohamed.laib@unil.ch>
 
-License: GPL (>= 3)
+License: GPL-3
 
 # note:
 This R code was developed and used for "Analysis of high dimensional environmental data using local fractality concept and machine learning", the European Geosciences Union General Assembly (EGU 2018).
+
+# Installation
+Please download: FractalTools.tar.gz >> https://drive.google.com/open?id=1QuQ-TUZ0FE7tCsqDWUsuu6zBGsGUnBLF
+
+The package depends on the following R libraries:
+Rcpp, bigmemory, biganalytics, RcppArmadillo, BH
