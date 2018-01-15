@@ -38,7 +38,7 @@
 #' data <- apply(data,MARGIN=2,FUN = function(X) (X - min(X))/diff(range(X)))
 #' rad<-seq(0.1,0.31,0.01)
 #' A<-LocalSB(data, rad)
-#' A$Results$Fdim
+#' A$Results
 #'
 #' }
 #'
